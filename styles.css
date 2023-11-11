@@ -9,20 +9,100 @@ DARK BLUE: #1D3557
 */
 
 body {
+    background-color: #fff;
     margin: 0;
     text-align: center;
+    font-family: Spectral, serif;
+    color: #1D3557;
+}
+
+/* HERO SECTION */
+
+#hero {
+    height: 350px;
+    background-image: url("/images/gibbstown.jpg");
+    background-color: lightgray;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* So the title and subtitle backgrounds crop around the text: */
+    align-items: center;
+}
+
+#hero-title, #hero-subtitle {
+    color: #fff;
+    border-radius: 5px;
+}
+
+#hero-title {
+    background-color: #457B9D;
+    padding: 6px 15px;
+    margin: 0;
+}
+
+#hero-subtitle {
+    background-color: #1D3557;
+    width: 400px;
+    padding: 6px;
+    font-size: 16px;
+}
+
+/* ACTIVITES SECTION */
+
+#activities-container {
+    background-color: #F1FAEE;
+}
+
+#activities-title {
+    padding: 30px;
+    margin: 0;
+}
+
+#activities-flex {
+    display: flex;
+    justify-content: space-around;
+    margin: 0 40px;
+}
+
+.activity-container {
+    width: 200px;
+    padding: 0 10px 10px; 
 }
 
 img {
-    width: 100px;
+    width: 125px;
     border-radius: 50%;
-}
-
-#activities-container {
-    display: flex;
-    justify-content: space-around;
 }
 
 .activity-title {
     font-weight: bold;
+}
+
+.activity-description {
+    font-size: 14px;
+}
+
+/* GUIDE SECTION */
+
+#guide-card {
+    background-color: #A8DADC;
+    width: 400px;
+    padding: 0 20px;
+    margin: 40px auto;
+    border-bottom: 8px solid #457B9D;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+}
+
+#guide-card img {
+    border-radius: 0;
+    padding-right: 10px;
+}
+
+#guide-card-info p {
+    font-style: italic;
+    font-size: 14px; 
 }

@@ -1,42 +1,48 @@
 <!DOCTYPE html>
 <html>
     <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,500;0,700;1,500&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="styles.css">
     </head>
     <body>
-        
         <!-- HERO SECTION -->
-        <div>
-            <h1>Visit Gibbstown</h1>
-            <h2>Enjoy... things in this vibrant township across the Delaware River.</h2>
+        <div id="hero">
+            <h1 id="hero-title">Visit Gibbstown</h1>
+            <h2 id="hero-subtitle">Enjoy some things in this suburban township across the Delaware River from Philadelphia.</h2>
         </div>
         
         <!-- ACTIVITIES SECTION -->
-        <h3>Top three activities to do in Gibbstown:</h3>
         <div id="activities-container">
-            <div class="activity-container">
-                <img src="images/park.jpg">
-                <p class="activity-title">Activity Title</p>
-                <p class="activity-description">Activity Description</p>
-            </div>
-            <div class="activity-container">
-                <img src="images/theatre.jpg">
-                <p class="activity-title">Activity Title</p>
-                <p class="activity-description">Activity Description</p>
-            </div>
-            <div class="activity-container">
-                <img src="images/sports.jpg">
-                <p class="activity-title">Activity Title</p>
-                <p class="activity-description">Activity Description</p>
+            <h3 id="activities-title">Top three activities to do in Gibbstown:</h3>
+            <div id="activities-flex">
+                <div class="activity-container">
+                    <img src="images/trail.jpg">
+                    <p class="activity-title">Stroll the<br>Nehaunsey Trail</p>
+                    <p class="activity-description">A lovely walking trail through woods and wetland</p>
+                </div>
+                <div class="activity-container">
+                    <img src="images/log-cabin.jpg">
+                    <p class="activity-title">Visit the C. A.<br>Nothnagle Log House</p>
+                    <p class="activity-description">One of the oldest log cabins in the United States!</p>
+                </div>
+                <div class="activity-container">
+                    <img src="images/taco-bell.png">
+                    <p class="activity-title">We got a Taco Bell<br>a few years ago</p>
+                    <p class="activity-description">Arguably a better fast food esablishment than the Burger King it replaced</p>
+                </div>
             </div>
         </div>
 
         <!-- GUIDE SECTION -->
-        <div>
-            <h3>Your guide</h3>
-            <p>"I have lived at Torshov for over 30 years, so I can show you all of its best parts and hidden secrets."</p>
-            <h4>Per Harald Borgen</h4>
-            <img src="images/per.jpg">
+        <div id="guide-card">
+            <img src="images/bobby.jpg">
+            <div id="guide-card-info">
+                <h3>Your humble guide</h3>
+                <p>"I was born and raised here in Gibbstown and have lived here most of my life. I can show you the above three places."</p>
+                <h4>Bobby Bates</h4>
+            </div>
         </div>
     </body>
 </html>
