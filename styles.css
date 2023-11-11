@@ -19,7 +19,7 @@ body {
 /* HERO SECTION */
 
 #hero {
-    height: 350px;
+    height: 400px;
     background-image: url("/images/gibbstown.jpg");
     background-color: lightgray;
     background-size: cover;
