@@ -62,7 +62,7 @@ body {
 
 #activities-flex {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     margin: 0 40px;
 }
 
